@@ -1,2 +1,4 @@
 venv
 records.txt
+.vscode
+__pycache__
