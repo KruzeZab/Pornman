@@ -1,4 +1,5 @@
+__pycache__
+.vscode
 venv
 records.txt
-.vscode
-__pycache__
+
