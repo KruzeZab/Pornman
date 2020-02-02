@@ -19,7 +19,6 @@ class HangMan:
     '''
     Main class that contains all the methods for the game
     '''
-
     def comment(self):
         '''
         Get the comment from pornhub
@@ -160,6 +159,7 @@ class HangMan:
                 self.lose(temp_comment) #call lose method
                 break
 
-#Create object and call the play method
-hang = HangMan().play()
+if __name__ == '__main__':
+    #Create object and call the play method
+    hang = HangMan().play()
     
